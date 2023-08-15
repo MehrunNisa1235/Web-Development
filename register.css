@@ -1,0 +1,91 @@
+
+.
+{
+    padding:0;
+    margin:0; 
+}
+
+body
+{
+    background-color: black;
+}
+
+.container
+{
+    
+    width: 35%; 
+    height:100%;
+    border-radius: 20px;
+    background-color: pink;
+    margin-left:30%;
+    
+}
+
+.header
+{
+    
+    background-color:cyan; 
+    padding:15px;
+    border-radius:20px;
+
+}
+
+h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    color:red;
+    font-weight:bold;
+    text-decoration: underline;
+}
+
+#form
+{
+    padding:30px;
+}
+
+#form label
+{
+    font-weight: bold;
+    color:black;
+    display:inline-block;
+    
+}
+
+#form input
+{
+    width:100%;
+    margin-bottom:10px;
+    padding:8px;
+    display:block;
+}
+
+#form input:focus
+{
+ outline:0;
+ border-color:blue;
+
+}
+
+.button
+{
+    width:60%;
+    background-color: green;
+    text-transform: uppercase;
+    margin-left:50px;
+    padding:10px;
+    border-radius:20px;
+}
+
+#btn
+{
+    text-align:center;
+    font-weight: bold;
+    color:black; 
+    font-size:18px;
+}
+
+#btn:hover
+{
+    background:linear-gradient(to right,yellow,red); 
+}
