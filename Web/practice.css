@@ -1,0 +1,91 @@
+.{
+ padding:0;
+ margin:0;
+}
+
+#header
+{
+ background-color:blue;
+ color:white; 
+ text-align:center;
+ padding:6px;
+ border:10px solid pink;
+}
+
+h1
+{
+ text-align:center;
+ color:white; 
+}
+
+p
+{
+ text-align:center;
+  color:white; 
+}
+p1
+{
+ text-align:center;
+  color:white; 
+}
+
+#navigation
+{
+ line-height:40px;
+ background-color:skyblue; 
+ color:red;
+ width:150px;
+ height:800px;
+ padding:15px;
+ display:block;
+ float:left; 
+ border:10px solid pink; 
+}
+
+#contents
+{
+ widht:40px; 
+ height:800px;
+ float:right;
+ padding:15px;
+ border-bottom:1px solid grey; 
+ line-height:40px;
+ background-color:skyblue;
+ color:red; 
+ border:12px solid pink; 
+}
+
+#section
+{
+ margin:0px 0px 0px 200px; 
+ width:77%;
+ height:800px;
+ line-height:20px;
+ background-color:9400D3;
+ color:white; 
+ padding-top:10px;
+ padding-bottom:17px;
+ border:10px solid pink;
+ 
+}
+ #form
+{
+ padding:30px; 
+ font-size:16px;
+ font-family:sans-serif;
+ padding-left:20px; 
+}
+#name
+{
+ width:40%; 
+}
+#num
+{
+ width:35%;
+}
+#register
+{
+ color:black;
+ text-align:center;
+ width:60px;
+}

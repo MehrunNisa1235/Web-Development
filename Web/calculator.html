@@ -1,0 +1,48 @@
+<html>
+<head>
+
+</head>
+<body>
+<input type="number" id="first">
+<select id="ope">
+<option value="+"> + </option>
+<option value="-"> - </option>
+<option value="*"> * </option>
+<option value="/"> / </option>
+</select>
+<input type="number" id="second"></br> </br></br> 
+
+<button onclick="mehar()"> Calculate </button>
+
+<input type="number" id="result">
+</body>
+<script>
+function mehar()
+{
+var ope1=document.getElementById('first').value;
+var ope2=document.getElementById('second').value;
+var ope=document.getElementById('ope').value;
+if(ope=='+')
+{
+  var result=parseInt(ope1)+parseInt(ope2); 
+}
+
+if(ope=='-')
+{
+  var result=parseInt(ope1)-parseInt(ope2); 
+}
+
+if(ope=='*')
+{
+  var result=parseInt(ope1)*parseInt(ope2); 
+}
+
+if(ope=='/')
+{
+  var result=parseInt(ope1)/parseInt(ope2); 
+}
+document.getElementById('result').value=result; 
+}
+</script>
+
+</html>
